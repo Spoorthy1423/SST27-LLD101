@@ -1,6 +1,5 @@
 package exercise;
 
-// Adapter: wraps EmployeeDB and implements Employee
 public class EmployeeDBAdapter implements Employee {
   private final EmployeeDB instance;
 
@@ -10,7 +9,7 @@ public class EmployeeDBAdapter implements Employee {
 
   @Override
   public String getId() {
-    return String.valueOf(instance.getId()); // int → String
+    return String.valueOf(instance.getId()); 
   }
 
   @Override
@@ -20,11 +19,11 @@ public class EmployeeDBAdapter implements Employee {
 
   @Override
   public String getLastName() {
-    return instance.getSurname(); // different naming → map
+    return instance.getSurname(); 
   }
 
   @Override
   public String getEmail() {
-    return instance.getEmailAddress(); // different naming → map
+    return instance.getEmailAddress(); 
   }
 }

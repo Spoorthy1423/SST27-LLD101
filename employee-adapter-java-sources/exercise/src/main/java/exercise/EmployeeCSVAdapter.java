@@ -1,6 +1,5 @@
 package exercise;
 
-// Adapter: wraps EmployeeCSV and implements Employee interface
 public class EmployeeCSVAdapter implements Employee {
   private final EmployeeCSV instance;
 
@@ -10,7 +9,7 @@ public class EmployeeCSVAdapter implements Employee {
 
   @Override
   public String getId() {
-    return instance.tokens()[0]; // CSV: id,first,last,email
+    return instance.tokens()[0]; 
   }
 
   @Override
