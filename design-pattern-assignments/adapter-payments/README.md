@@ -1,3 +1,4 @@
+
 # Adapter — Payments (Refactoring)
 
 ## Narrative (Current Code)

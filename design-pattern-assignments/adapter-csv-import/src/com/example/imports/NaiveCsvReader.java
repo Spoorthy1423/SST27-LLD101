@@ -1,5 +1,5 @@
 package com.example.imports;
-
+//a normal csv reader that returns a list of string arrays 
 import java.io.*; 
 import java.nio.file.*; 
 import java.util.*;
